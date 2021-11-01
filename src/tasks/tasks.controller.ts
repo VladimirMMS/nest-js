@@ -28,5 +28,4 @@ export class TasksController {
         console.log(id)
         return 'Task updated'
     }
-
 }
