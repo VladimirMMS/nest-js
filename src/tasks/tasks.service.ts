@@ -26,11 +26,11 @@ export class TasksService {
         }
     ]
 
-    getTasks () {
+    getTasks (): Task[] {
         return this.tasks
     }
 
-    getTask (id) {
+    getTask (id): Task {
         return this.tasks.find(task => task.id === id)
     }
 
